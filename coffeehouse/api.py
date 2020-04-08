@@ -19,7 +19,7 @@ class API:
         endpoint (``str``):
             Base URL for all requests, without the trailing slash
             
-        loop (`Event loop <https://docs.python.org/3/library/asyncio-eventloop.html#asyncio-event-loop>`_,
+        loop (`Event loop <https://docs.python.org/3/library/asyncio-eventloop.html#asyncio-event-loop/>`_,
         optional):
             The event loop to be passed to aiohttp.ClientSession
 
