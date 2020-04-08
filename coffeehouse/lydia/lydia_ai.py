@@ -1,5 +1,6 @@
 from .session import LydiaSession
 from ..api import API
+from ..exception import CoffeeHouseError
 
 
 __all__ = ["LydiaAI"]
