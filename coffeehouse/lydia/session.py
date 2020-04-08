@@ -17,11 +17,16 @@ class LydiaSession:
         """
         Processes user input and returns an AI text Response
 
-        :type text: str
-        :param text: The user input
-        :raises: CoffeeHouseError
-        :returns: The JSON response from the server
-        :rtype: str
+        Parameters:
+            text (``str``):
+                The user input
+            
+        Returns:
+            response (``str``):
+                On success, the response of the AI is returned
+
+        Raises:
+            CoffeeHouseError
         """
 
         return await self._client.think_thought(self.id, text)
@@ -31,10 +36,10 @@ class LydiaSession:
 
     def __str__(self):
         """
-        Returns an identifier uniquely specifying this session
+        Return an identifier uniquely specifying this session
 
-        :returns: The session id
-        :rtype: str
+        Returns:
+            Session ID (``str``)
         """
 
         return self.id
