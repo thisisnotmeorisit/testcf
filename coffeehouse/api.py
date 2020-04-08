@@ -25,8 +25,8 @@ class API:
         session (:obj:`aiohttp.ClientSession`, optional):
             The aiohttp.ClientSession object to be used for HTTP requests
 
-        .. _EventLoop:
-           https://docs.python.org/3/library/ asyncio-eventloop.html#asyncio-event-loop
+    .. _EventLoop:
+       https://docs.python.org/3/library/ asyncio-eventloop.html#asyncio-event-loop
     """
 
     def __init__(
