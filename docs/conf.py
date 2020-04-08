@@ -15,6 +15,10 @@ import sys
 sys.path.insert(0, os.path.abspath('..'))
 
 
+from pygments.styles.friendly import FriendlyStyle
+
+FriendlyStyle.background_color = "#f3f2f1"
+
 # -- Project information -----------------------------------------------------
 
 project = 'AsyncCF'
