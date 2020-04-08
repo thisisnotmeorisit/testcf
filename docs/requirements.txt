@@ -1,2 +1,3 @@
 sphinxcontrib-napoleon
 aiohttp
+sphinxcontrib-asyncio
